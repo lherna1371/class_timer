@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: chartreuse;
+  font-size: 4em;
+}
+
+label {
+  font-size: 0.25em;
+}
+
+.navbar {
+  display: flex;
+}
+
+.pageLink {
+  margin-top: 0px;
+  background-color: black;
+  color: dimgrey;
+  font-size: 0.25em !important;
+}

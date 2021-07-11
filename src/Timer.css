@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: chartreuse;
+  font-size: 4em;
+}
+
+label {
+  font-size: 0.25em;
+}
+
+.title {
+  text-align: center;
+}
+
+.break_timer {
+  margin-bottom: 0px;
+}
