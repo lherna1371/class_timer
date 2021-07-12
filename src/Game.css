@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: chartreuse;
+  font-size: 4em;
+}
+
+label {
+  font-size: 0.25em;
+}
+
+.game {
+  margin-top: 0px;
+}
+
+.header {
+  margin-bottom: 0px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0px;
+}

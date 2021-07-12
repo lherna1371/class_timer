@@ -13,7 +13,7 @@ export default class Norms extends React.Component {
       <div className="title">
         <h4 className="header">Classroom Norms:</h4>
 
-        <div className="norms" contenteditable="false">
+        <div className="norms">
           <ul>
             <li>Follow NJIT’s code of ethics</li>
             <li>Mute yourself</li>
@@ -27,7 +27,7 @@ export default class Norms extends React.Component {
 
         <h5 className="header2">After Learning Git</h5>
 
-        <div className="norms" contenteditable="false">
+        <div className="norms">
           <ul>
             <li>Have the Activity cloned locally before every class so you can follow along with us</li>
           </ul>

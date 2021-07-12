@@ -1,4 +1,5 @@
 import React from "react";
+import Game from "./Game";
 import Norms from "./Norms";
 import Timer from "./Timer";
 import "./App.css";
@@ -25,10 +26,12 @@ export default class App extends React.Component {
         <div className="navbar">
           <button className="pageLink" onClick={this.changeLink} value="timer">Timer</button>
           <button className="pageLink" onClick={this.changeLink} value="norms">Class Norms</button>
+          <button className="pageLink" onClick={this.changeLink} value="game">Game</button>
           <button className="pageLink" onClick={this.changeLink} value="nothing">Nothing</button>
         </div>
         <Timer link={this.state.link}/>
         <Norms link={this.state.link}/>
+        <Game link={this.state.link}/>
       </div>
     );
   }
