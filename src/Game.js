@@ -141,11 +141,6 @@ export default class Game extends React.Component {
   }
 
   render() {
-    if (this.props.link !== "game") {
-      return (
-        <div/>
-      );
-    }
     return (
       <div className="title">
         <h4 className="header">Game:</h4>

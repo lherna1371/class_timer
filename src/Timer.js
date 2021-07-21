@@ -60,11 +60,6 @@ export default class Timer extends React.Component {
   };
 
   render() {
-    if (this.props.link !== "timer") {
-      return (
-        <div/>
-      );
-    }
     return (
       <div className="title">
         <h2 className="break_timer">Break Timer:</h2>

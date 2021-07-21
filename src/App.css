@@ -14,11 +14,12 @@ label {
 
 .navbar {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .pageLink {
   margin-top: 0px;
   background-color: black;
-  color: dimgrey;
+  color: chartreuse;
   font-size: 0.25em !important;
 }
