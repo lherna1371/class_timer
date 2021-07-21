@@ -3,36 +3,33 @@ import Game from "./Game";
 import Norms from "./Norms";
 import Timer from "./Timer";
 import "./App.css";
-
+import {Link, Switch,Route, BrowserRouter } from 'react-router-dom'
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      link: "timer"
-    };
-
-    this.changeLink = this.changeLink.bind(this);
-  }
-
-  changeLink(event) {
-    this.setState({link: event.target.value});
-  }
-
   render() {
     return (
-      <div>
-        <div className="navbar">
-          <button className="pageLink" onClick={this.changeLink} value="timer">Timer</button>
-          <button className="pageLink" onClick={this.changeLink} value="norms">Class Norms</button>
-          <button className="pageLink" onClick={this.changeLink} value="game">Game</button>
-          <button className="pageLink" onClick={this.changeLink} value="nothing">Nothing</button>
+      <BrowserRouter>
+        <div>
+          <div className="navbar">
+            <Link className="pageLink" to="/timer">Timer</Link>
+            <Link className="pageLink" to="/norms">Class Norms</Link>
+            <Link className="pageLink" to="/game">Game</Link>
+            <Link className="pageLink" to="/nothing">Nothing</Link>
+          </div>
+          <Switch>
+            <Route path="/timer" component={Timer}/>
+            <Route path="/norms" component={Norms}/>
+            <Route path="/game" component={Game}/>
+            <Route path="/nothing" component={NothingComponent}/>
+            <Route exact path="/" component={Timer}/>
+          </Switch>
+          
         </div>
-        <Timer link={this.state.link}/>
-        <Norms link={this.state.link}/>
-        <Game link={this.state.link}/>
-      </div>
+      </BrowserRouter>
     );
   }
+}
+
+const NothingComponent = () => {
+  return <div>Nothing</div>
 }

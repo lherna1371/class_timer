@@ -4,11 +4,6 @@ import './Norms.css';
 
 export default class Norms extends React.Component {
   render() {
-    if (this.props.link !== "norms") {
-      return (
-        <div/>
-      );
-    }
     return (
       <div className="title">
         <h4 className="header">Classroom Norms:</h4>
