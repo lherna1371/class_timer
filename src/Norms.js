@@ -17,6 +17,7 @@ export default class Norms extends React.Component {
             <li>We strongly encourage turning on video, so you feel present in the classroom</li>
             <li>Be respectful</li>
             <li>7 minute break on the hour mark</li>
+            <li>Use Slack for communication. Instructors will respond before the next class starts</li>
           </ul>
         </div>
 
