@@ -12,11 +12,11 @@ export default class Norms extends React.Component {
           <ul>
             <li>Follow NJIT’s code of ethics</li>
             <li>Mute yourself</li>
-            <li>Put pronouns as part of your Zoom names.</li>
+            <li>Be present in class from beginning to ending. Attendance will be taken at beginning and ending. Please message one of the instructors if you need to logout</li>
             <li>Raise hand or type in chat for questions</li>
             <li>We strongly encourage turning on video, so you feel present in the classroom</li>
             <li>Be respectful</li>
-            <li>7 minute break on the hour mark</li>
+            <li>5 minute break on the hour mark</li>
             <li>Use Slack for communication. Instructors will respond before the next class starts</li>
           </ul>
         </div>

@@ -8,7 +8,7 @@ export default class Timer extends React.Component {
 
     if (this.state === undefined || this.state.time_in_minutes === undefined) {
       this.state = {
-        time_in_minutes: 7,
+        time_in_minutes: 5,
         timer_interval: null
       };
     }
@@ -70,7 +70,7 @@ export default class Timer extends React.Component {
         </label>
         <button onClick={this.timer}>Start</button>
 
-        <h1 id="timer">7:00</h1>
+        <h1 id="timer">5:00</h1>
       </div>
     );
   }
