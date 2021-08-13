@@ -18,6 +18,7 @@ export default class Norms extends React.Component {
             <li>Be respectful</li>
             <li>7 minute break on the hour mark</li>
             <li>Use Slack for communication. Instructors will respond before the next class starts</li>
+            <li>Submit any required quizzes and/or assignments before the next class meeting (grading policy in Canvas Syllabus)</li>
           </ul>
         </div>
 
