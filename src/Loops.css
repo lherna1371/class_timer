@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: chartreuse;
+  font-size: 4em;
+}
+
+label {
+  font-size: 0.25em;
+}
+
+li {
+    font-size: 25px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.header {
+  margin-bottom: 0px;
+}
+
+.header2 {
+  margin-bottom: 0px;
+  margin-top: 1%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.norms {
+  display: inline-flex;
+  text-align: left;
+  width: 80%;
+}
