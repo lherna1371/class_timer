@@ -15,8 +15,8 @@ export default class App extends React.Component {
             <Link className="pageLink" to="/timer">Timer</Link>
             <Link className="pageLink" to="/norms">Class Norms</Link>
             <Link className="pageLink" to="/game">Game</Link>
-            <Link className="pageLink" to="/again">AGAIN</Link>
-            <Link className="pageLink" to="/nothing">Nothing</Link>
+            {/* <Link className="pageLink" to="/again">AGAIN</Link>
+            <Link className="pageLink" to="/nothing">Nothing</Link> */}
           </div>
           <Switch>
             <Route path="/timer" component={Timer}/>
