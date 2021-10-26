@@ -10,7 +10,7 @@ export default class Norms extends React.Component {
 
         <div className="norms">
           <ul>
-            <li>Follow NJIT’s code of ethics</li>
+            <li>Follow UNLV’s code of ethics</li>
             <li>Mute yourself</li>
             <li>Put pronouns as part of your Zoom names.</li>
             <li>Be present in class from beginning to ending. Attendance will be taken at beginning and ending. Please message one of the instructors if you need to logout</li>
